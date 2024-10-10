@@ -1,0 +1,57 @@
+header {
+    background: white;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    font-family: "Schibsted Grotesk", sans-serif;
+}
+
+body{
+    background: rgb(243, 238, 238);
+    margin: 0;
+    font-family: "Schibsted Grotesk", sans-serif;
+}
+
+div.container{
+    width: 600px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.post-header{
+    background: white;
+    margin: 0;
+    display: flex;
+    height: 70px;
+}
+
+.post-header :first-child{
+    width: 80%;
+    white-space: nowrap;
+    margin-left: 10px;
+}
+
+.post-header :last-child{
+    width: 20%;
+}
+
+.date span{
+    padding: 25px;
+    float: right;
+    color: rgb(173, 168, 168);
+}
+
+.picture{
+    background: white;
+}
+
+.picture img{
+    width: 100%;
+    margin: 0;
+}
+
+div p{
+    background: white;
+    margin-top: 1px;
+    padding: 15px;
+}
